@@ -47,7 +47,7 @@ function cambioColor() {
 
 
 function test() {
-  setInterval(function(){cambioColor()},1000)
+  setInterval(function(){cambioColor()},2000)
   
 }
 
