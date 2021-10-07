@@ -1,0 +1,92 @@
+ body{
+    background-color: #181818;
+} 
+
+#barra{
+    background-color: black;
+    width: 20px;
+    height: 150px;
+    margin: auto;
+  }
+  
+  #semaforo{
+    background-color: black;
+    width: 150px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  .luz{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+  .roja{
+    background-color: red;
+  }
+  
+  .amarilla{
+    margin-top: 10px;
+    background-color: orange;
+  }
+  .verde{
+    margin-top: 10px;
+    background-color: green;
+  }
+  /* botones */
+.conteiner-buttons button{
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.conteiner-buttons button:hover{
+    cursor: pointer;
+
+}
+
+.center .contenedor .conteiner-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.btn-rojo{
+    background-color: red;
+    color: white;
+    transition: background-color linear .3s;
+}
+
+.btn-amarillo{
+    background-color:gold;
+    color: white;
+    transition: background-color linear .3s;
+}
+.btn-verde{
+    background-color: green;
+    color: white;
+    transition: background-color linear .3s;
+}
+.btn-crema{
+    background-color:#ae946d; ;
+    color: white;
+    transition: background-color linear .3s;
+}
+
+
+.btn-rojo:hover{
+    background-color: rgba(255, 0, 0, 0.466);
+}
+.btn-amarillo:hover{
+    background-color: rgb(190, 209, 22);
+}
+.btn-verde:hover{
+    background-color: rgba(0, 128, 0, 0.561);
+}
+.btn-crema:hover{
+    background-color: #79674d;
+}
